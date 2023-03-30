@@ -12,9 +12,10 @@ html {
   
   body {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     width: 100vw;
     height: 100vh;
+    background-color: rgb(202, 215, 121);
   }
 
   h1 {
@@ -35,11 +36,11 @@ html {
   }
 
   .box {
-    background-color: aliceblue;
+    background-color: rgb(244, 244, 244);
     padding: 3rem 3rem;
     margin-top: 2rem;
     width: 70rem;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
   }
 
   a:hover,
