@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+  }
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .container {
+    background-image: url("https://images.unsplash.com/photo-1546984575-757f4f7c13cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .box {
+    background-color: aliceblue;
+    padding: 3rem 3rem;
+    margin-top: 2rem;
+    width: 70rem;
+    line-height: 2.5rem;
+  }
+
+  a:hover,
+  a:active,
+  a:link,
+  a:visited {
+    color: rgb(222, 53, 180);
+  }
